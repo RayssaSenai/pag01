@@ -1,0 +1,73 @@
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: corporativo
+}
+
+p {
+    color: black;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 75px;
+}
+
+p {
+    font-family: "Josefin Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+body {
+    display: flex; /* Usa flexbox para estruturar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    height: 100vh; /* Define altura total da tela */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background: white; /* Define o fundo branco */
+}
+.topo {
+    background: burlywood; /* Define a cor de fundo */
+    height: 15%; /* Define altura do topo */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+
+}
+.container {
+    display:flex
+}
+.navegacao {
+    background: cornsilk; /* Define cor de fundo */
+    width: 20%; /* Define largura da navegação */
+    writing-mode: horizontal; /* Rotaciona o texto verticalmente */
+    text-align: left; /* Centraliza o texto */
+    color:black; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.conteudo {
+    background: cornsilk; /* Define cor de fundo */
+    flex: 1; /* Ocupa o espaço restante */
+
+    color: black; /* Define cor do texto */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+.rodape {
+    background: burlywood; /* Define cor de fundo */
+    height: 10%; /* Define altura do rodapé */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
