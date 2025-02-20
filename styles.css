@@ -1,11 +1,11 @@
 h1 {
-    color: black;
+    color: blue;
     font-size: 40px;
     font-family: corporativo
 }
 
 p {
-    color: black;
+    color: blue;
     font-size: 20px;
 }
 
@@ -29,8 +29,11 @@ body {
     font-family: Arial, sans-serif; /* Define a fonte padrão */
     background: white; /* Define o fundo branco */
 }
+a {
+    color: rgb(255, 224, 165);
+}
 .topo {
-    background: burlywood; /* Define a cor de fundo */
+    background: orange; /* Define a cor de fundo */
     height: 15%; /* Define altura do topo */
     text-align: center; /* Centraliza o texto */
     color: white; /* Define cor do texto */
@@ -44,25 +47,25 @@ body {
     display:flex
 }
 .navegacao {
-    background: cornsilk; /* Define cor de fundo */
+    background: orange; /* Define cor de fundo */
     width: 20%; /* Define largura da navegação */
     writing-mode: horizontal; /* Rotaciona o texto verticalmente */
     text-align: left; /* Centraliza o texto */
-    color:black; /* Define cor do texto */
+    color: white; /* Define cor do texto */
     display: flex; /* Usa flexbox para alinhamento interno */
     align-items: center; /* Alinha itens verticalmente */
     justify-content: center; /* Centraliza horizontalmente */
     border: 5px solid white; /* Adiciona uma borda branca */
 }
 .conteudo {
-    background: cornsilk; /* Define cor de fundo */
+    background: orange; /* Define cor de fundo */
     flex: 1; /* Ocupa o espaço restante */
 
-    color: black; /* Define cor do texto */
+    color: white; /* Define cor do texto */
     border: 5px solid white; /* Adiciona uma borda branca */
 }
 .rodape {
-    background: burlywood; /* Define cor de fundo */
+    background: orange; /* Define cor de fundo */
     height: 10%; /* Define altura do rodapé */
     text-align: center; /* Centraliza o texto */
     color: white; /* Define cor do texto */
